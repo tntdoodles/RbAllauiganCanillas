@@ -1,0 +1,64 @@
+* {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #ffeaef;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #7bd2db;
+    padding: 20px;
+    box-shadow: 2px -20px 10px #a7828b;
+}
+
+li.navbuttons {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    transition: ease-in-out background-color 0.2s;
+}
+
+li.navbuttons:hover {
+    background-color: #ffd9e2;
+}
+
+li.navbuttons.selected {
+    background-color: #ffd9e2;
+}
+
+li.navbuttons::before {
+    content: "◯ ";
+}
+
+.contact {
+    position: fixed;
+    bottom: 0px;
+}
+
+.title > a > h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.title > a > p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.description {
+    margin-left: 240px;
+    padding: 40px;
+}
