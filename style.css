@@ -7,6 +7,8 @@
     padding: 0px;
     margin: 0px;
     margin-bottom: 10px;
+    line-height: 1.5em;
+    object-fit: cover;
 }
 
 body {
@@ -76,41 +78,52 @@ li.navbuttons::before {content: "◯ ";}
 #lgbtq > img {
     float: right;
     max-height: 300px;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.p1div {
+    display: flex;
 }
 
 .identities {
-    display: flex;
-}
-
-.expression {
     text-align: justify;
     width: 50%;
+    margin-right: 20px;
 }
 
-.expression > img {
+.identities > img {
     max-height: 150px;
 }
 
-.icons {    
+.icondiv {    
     display: flex;
     float: right;
     width: 60%;
-    margin-left: 65px;
     text-align: justify;
+    margin-right: 20px;
 }
 
-.icons > img{
+.icondiv > img {
     float: right;
-    height: 250px;
+    height: 280px;
     width: 250px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
-.idols {
+.icon {
     width: 50%;
 }
 
-/* #lesbian:hover {
-    background-image: linear-gradient(90deg, #d42c00, #fd9855, #fff, #d161a2, #a20161);
-} */
+.indexdiv {
+    display: flex;
+}
+
+.indexdiv > img {
+    height: 555px;
+    float: right;
+}
+
+.indeximg > img {
+    height: 270px;
+    width: 500px;
+}
