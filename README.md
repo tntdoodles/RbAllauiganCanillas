@@ -14,7 +14,6 @@ Millions of people around the world identify under the queer spectrum. Although 
 
 ### 3rd Page: What the problem is*
 - Homophobia then and homophobia now
-- Other kinds of discrimination queer people face
 - LGBTQ+ rights
 
 ### 4th Page: What you can do to help
