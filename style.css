@@ -91,6 +91,10 @@ li.navbuttons::before {content: "◯ ";}
     margin-right: 20px;
 }
 
+.identities > p {
+    display: inline-block;
+}
+
 .identities > img {
     max-height: 150px;
 }
@@ -104,10 +108,10 @@ li.navbuttons::before {content: "◯ ";}
 }
 
 .icondiv > img {
-    float: right;
-    height: 280px;
-    width: 250px;
+    width: 220px;
     margin-left: 20px;
+    object-fit: covers;
+    display: inline-block;
 }
 
 .icon {
