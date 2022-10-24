@@ -15,6 +15,25 @@ body {
     background-color: #ffeaef;
 }
 
+::-webkit-scrollbar {
+    width: 22px;
+    height: 20px;
+    background-color: #ffeaef;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    display: none;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    border: solid 9px transparent;
+    box-shadow: inset 0 0 20px 20px #7bd2db;
+    background-color: transparent;
+    border-radius: 100px;
+}
+
 a {color: #c0294f; text-decoration: none;}
 
 #logo {width: 210px;}
@@ -77,8 +96,9 @@ li.navbuttons::before {content: "◯ ";}
 
 #lgbtq > img {
     float: right;
-    max-height: 300px;
-    margin-left: 20px;
+    height: 320px;
+    margin-left: 10px;
+    width: 400px;
 }
 
 .p1div {
@@ -122,12 +142,61 @@ li.navbuttons::before {content: "◯ ";}
     display: flex;
 }
 
-.indexdiv > img {
-    height: 555px;
-    float: right;
+.indexdiv > span {
+    width: 100%;
+    text-align: justify;
+    margin-right: 10px;
 }
 
-.indeximg > img {
-    height: 270px;
-    width: 500px;
+.indexdiv > img {
+    height: 350px;
+    width: 450px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 34px;
+}
+
+.p2div {
+    margin-top: 10px;
+    display: flex;
+}
+
+.p2div > img {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.indexdiv2 {
+    display: flex;
+}
+
+.indexdiv2 div {
+    width: 60%;
+}
+
+.indexdiv2 img {
+    width: 40%;
+    height: 230px;
+    margin-right: 10px;
+}
+
+.indexdiv3 {
+    display: flex;
+}
+
+.indexdiv3 div {
+    width: 70%;
+}
+
+.indexdiv3 img {
+    width: 30%;
+    height: 370px;
+    margin-left: 10px;
+}
+
+.description p {
+    text-align: justify;
 }
