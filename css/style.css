@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
 
 * {
-    font-size: 16px;
     color: black;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     padding: 0px;
     margin: 0px;
@@ -14,6 +14,13 @@
 body {
     background-color: #ffeaef;
 }
+
+h1 {
+    font-size: 24px;
+    margin-top: 22px;
+}
+
+a {color: #c0294f; text-decoration: none;}
 
 ::-webkit-scrollbar {
     width: 22px;
@@ -32,18 +39,6 @@ body {
     box-shadow: inset 0 0 20px 20px #7bd2db;
     background-color: transparent;
     border-radius: 100px;
-}
-
-a {color: #c0294f; text-decoration: none;}
-
-#logo {width: 210px;}
-
-#title {
-    margin-top: 5px;
-    color: #423E49;
-    font-weight: 700;
-    text-align: center;
-    font-size: 21px;
 }
 
 .navbar {
@@ -71,22 +66,50 @@ li.navbuttons.selected {background-color: #ffd9e2;}
 
 li.navbuttons::before {content: "◯ ";}
 
-.contact {
-    position: fixed;
-    bottom: 0px;
-}
+#logo {width: 210px;}
 
-.title > a > h1 {
-    font-size: 40px;
+#title {
+    margin-top: 5px;
+    color: #423E49;
+    font-weight: 700;
     text-align: center;
-    margin-bottom: 0px;
-    line-height: 0px;
-    
+    font-size: 21px;
 }
 
-.description {
+.content {
     margin-left: 240px;
     padding: 40px;
+    text-align: justify;
+}
+
+#indexdiv, #indexdiv2, #indexdiv3, .p1div {display: flex;}
+
+#indexdiv span {
+    width: 100%;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+#indexdiv img {
+    height: 250px;
+    width: 350px;
+}
+
+#indexdiv2 div {width: 60%;}
+
+#indexdiv2 img {
+    width: 40%;
+    height: 230px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+#indexdiv3 div {width: 70%;}
+
+#indexdiv3 img {
+    width: 30%;
+    height: 370px;
+    margin-left: 10px;
 }
 
 #lgbtq {
@@ -94,15 +117,11 @@ li.navbuttons::before {content: "◯ ";}
     text-align: justify;
 }
 
-#lgbtq > img {
+#lgbtq img {
     float: right;
     height: 320px;
     margin-left: 10px;
     width: 400px;
-}
-
-.p1div {
-    display: flex;
 }
 
 .identities {
@@ -111,13 +130,7 @@ li.navbuttons::before {content: "◯ ";}
     margin-right: 20px;
 }
 
-.identities > p {
-    display: inline-block;
-}
-
-.identities > img {
-    max-height: 150px;
-}
+.identities img {height: 150px;}
 
 .icondiv {    
     display: flex;
@@ -134,69 +147,14 @@ li.navbuttons::before {content: "◯ ";}
     display: inline-block;
 }
 
-.icon {
-    width: 50%;
-}
+.icon {width: 50%;}
 
-.indexdiv {
-    display: flex;
-}
-
-.indexdiv > span {
-    width: 100%;
-    text-align: justify;
-    margin-right: 10px;
-}
-
-.indexdiv > img {
-    height: 350px;
-    width: 450px;
-    margin-bottom: 5px;
-}
-
-h1 {
-    font-size: 24px;
-    margin-top: 34px;
-}
-
-.p2div {
+#p2div {
     margin-top: 10px;
     display: flex;
 }
 
-.p2div > img {
+#p2div img {
     width: 50%;
     margin-right: 10px;
-}
-
-.indexdiv2 {
-    display: flex;
-}
-
-.indexdiv2 div {
-    width: 60%;
-}
-
-.indexdiv2 img {
-    width: 40%;
-    height: 230px;
-    margin-right: 10px;
-}
-
-.indexdiv3 {
-    display: flex;
-}
-
-.indexdiv3 div {
-    width: 70%;
-}
-
-.indexdiv3 img {
-    width: 30%;
-    height: 370px;
-    margin-left: 10px;
-}
-
-.description p {
-    text-align: justify;
 }
